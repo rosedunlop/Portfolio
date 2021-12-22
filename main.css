@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+* {
+  background-color: #eae7dc;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #6e6e6b;
+}
+
+.css-typing {
+  height: 90vh;
+}
+
+.css-typing p {
+  border-right: 0.15em solid #d8c3a5;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 50px;
+  color: #e85a4f;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.name {
+  position: relative;
+  top: 20vh;
+  left: 40vw;
+}
+.job {
+  position: relative;
+  top: 20vh;
+  left: 30vw;
+}
+
+.css-typing p:nth-child(1) {
+  width: 5.8em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 3s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid #d8c3a5;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: 0.15em solid #d8c3a5;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
