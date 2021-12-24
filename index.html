@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/3fdae015a3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="main.css" />
     <title>Rose Dunlop</title>
   </head>
@@ -25,7 +30,29 @@
           <p class="name">Rose Dunlop</p>
           <p class="job">Junior Software Engineer</p>
         </div>
+        <div
+          class="scrolling-container"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          data-aos-delay="8000"
+        >
+          <p>SCROLL DOWN</p>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+      <section id="skills-section">
+        <div
+          class="skills-title"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        >
+          <h1>SKILLS</h1>
+        </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

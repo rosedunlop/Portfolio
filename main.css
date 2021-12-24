@@ -3,6 +3,11 @@
   background-color: #eae7dc;
 }
 
+body[data-aos-delay="8000"] [data-aos],
+[data-aos][data-aos][data-aos-delay="8000"] {
+  transition-delay: 8000ms;
+}
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -42,8 +47,8 @@ nav ul li {
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -57,6 +62,40 @@ nav ul li {
   animation-delay: 5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+
+.scrolling-container {
+  position: relative;
+  bottom: 30vh;
+  text-align: center;
+  height: 20vh;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.scrolling-container p {
+  color: #6e6e6b;
+}
+
+.scrolling-container i {
+  margin-top: 20px;
+  color: #6e6e6b;
+  font-size: 30px;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+#skills-section {
+  border: 2px solid red;
+  height: 50vh;
+}
+
+.skills-title {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #e98074;
+  font-size: 25px;
 }
 
 @keyframes type2 {
@@ -99,5 +138,28 @@ nav ul li {
 @-webkit-keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-15px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
   }
 }
