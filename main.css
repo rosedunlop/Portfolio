@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 * {
   background-color: #eae7dc;
 }
@@ -24,7 +25,7 @@ nav ul li {
 
 .css-typing p {
   border-right: 0.15em solid #d8c3a5;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 50px;
   color: #e85a4f;
   white-space: nowrap;
@@ -34,16 +35,16 @@ nav ul li {
 .name {
   position: relative;
   top: 20vh;
-  left: 40vw;
+  left: 38.5vw;
 }
 .job {
   position: relative;
   top: 20vh;
-  left: 30vw;
+  left: 27vw;
 }
 
 .css-typing p:nth-child(1) {
-  width: 5.8em;
+  width: 6.8em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -54,7 +55,7 @@ nav ul li {
 }
 
 .css-typing p:nth-child(2) {
-  width: 11.5em;
+  width: 13.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 3s steps(40, end);
@@ -87,15 +88,55 @@ nav ul li {
   transform-origin: bottom;
 }
 #skills-section {
-  border: 2px solid red;
-  height: 50vh;
+  height: 80vh;
 }
 
 .skills-title {
   text-align: center;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #e98074;
   font-size: 25px;
+}
+
+.skills-container {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.first-skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.second-skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.third-skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.fourth-skills {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#icon {
+  font-size: 60px;
+}
+
+.single-skill {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.single-skill p {
+  color: #6e6e6b;
 }
 
 @keyframes type2 {
