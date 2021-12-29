@@ -26,17 +26,35 @@
     </header>
     <main>
       <section id="title-page">
-        <div class="css-typing">
-          <p class="name">Rose Dunlop</p>
-          <p class="job">Junior Software Engineer</p>
+        <div class="title-container">
+          <div class="css-typing">
+            <div class="name-cont">
+              <p class="name">Rose Dunlop</p>
+              <p class="job">Junior Software Engineer</p>
+            </div>
+          </div>
+          <div class="social">
+            <div class="social-icons">
+              <i class="fab fa-github"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fas fa-at"></i>
+            </div>
+            <div class="social-links">
+              <a>GitHub</a>
+              <a>LinkedIn</a>
+              <a>Contact</a>
+            </div>
+          </div>
         </div>
+        <div class="blue-background"></div>
+        <div class="red-shape"></div>
         <div
           class="scrolling-container"
           data-aos="fade-down"
           data-aos-duration="3000"
           data-aos-delay="8000"
         >
-          <p>SCROLL DOWN</p>
+          <p>Scroll Down</p>
           <i class="fas fa-chevron-down"></i>
         </div>
       </section>
@@ -46,15 +64,10 @@
           data-aos="fade-right"
           data-aos-duration="3000"
         >
-          <h1>SKILLS</h1>
+          <h1>Skills</h1>
         </div>
         <div class="skills-container">
-          <div
-            class="first-skills"
-            data-aos="flip-left"
-            data-aos-delay="1000"
-            data-aos-duration="3000"
-          >
+          <div class="first-skills">
             <div class="single-skill">
               <i class="fab fa-js" id="icon"></i>
               <p>JavaScript</p>
@@ -72,12 +85,7 @@
               <p>HTML</p>
             </div>
           </div>
-          <div
-            class="second-skills"
-            data-aos="flip-left"
-            data-aos-delay="1500"
-            data-aos-duration="3000"
-          >
+          <div class="second-skills">
             <div class="single-skill">
               <i class="fab fa-node-js" id="icon"></i>
               <p>Node.js</p>
@@ -95,12 +103,7 @@
               <p>git</p>
             </div>
           </div>
-          <div
-            class="third-skills"
-            data-aos="flip-right"
-            data-aos-delay="2000"
-            data-aos-duration="3000"
-          >
+          <div class="third-skills">
             <div class="single-skill">
               <img
                 src="https://img.icons8.com/ios-filled/150/000000/django.png"
@@ -130,12 +133,7 @@
               <p>VScode</p>
             </div>
           </div>
-          <div
-            class="fourth-skills"
-            data-aos="flip-right"
-            data-aos-delay="2500"
-            data-aos-duration="3000"
-          >
+          <div class="fourth-skills">
             <div class="single-skill">
               <img src="/images/4691373_sass_icon.png" width="60" height="60" />
               <p>SASS</p>
@@ -143,6 +141,108 @@
             <div class="single-skill">
               <img src="/images/express.png" width="60" height="60" />
               <p>Express.js</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects-section">
+        <div class="projects-title">
+          <h1>Projects</h1>
+        </div>
+        <div class="projects-container">
+          <div class="first-project">
+            <div class="first-image">
+              <img src="./images/eclectic.png" alt="image" />
+            </div>
+            <div class="small-img-cont">
+              <img
+                class="small-eclectic-img"
+                src="./images/GA-LDN React Template (1).png"
+              />
+            </div>
+            <div class="green-shape"></div>
+            <div class="first-details">
+              <div class="first-details-cont">
+                <h2>Eclectic</h2>
+                <p>
+                  A Full-Stack application using React, Python, Django REST
+                  framework and SASS. I individually created an interiors app
+                  which held a database full of products which they could
+                  filter, users could register an account, post products to the
+                  community, edit their own products, add products to their wish
+                  list, view trending homeware articles and review particular
+                  products too.
+                </p>
+                <button>Live</button>
+                <button>GitHub</button>
+              </div>
+            </div>
+          </div>
+          <div class="second-project">
+            <div class="second-image">
+              <img src="./images/Aioli.png" alt="image" />
+            </div>
+            <div class="orange-shape"></div>
+            <div class="second-details">
+              <div class="second-details-cont">
+                <h2>Aioli</h2>
+                <p>
+                  A Full-Stack MERN application using React, Node.js, Express,
+                  SASS and MongoDB. As a group we created a recipe app which
+                  held a database full of recipes. Users could register an
+                  account, post their own recipes, rate and comment on each
+                  other's recipes and save particular recipes to their account.
+                </p>
+                <button>Live</button>
+                <button>GitHub</button>
+              </div>
+              <img
+                src="./images/Create React App Template - GA PROJECTS (2).png"
+                class="second-project-sm-images"
+              />
+            </div>
+          </div>
+          <div class="third-project">
+            <div class="third-image">
+              <img src="./images/Napster.png" alt="image" />
+            </div>
+            <div class="blue-shape"></div>
+            <div class="third-details">
+              <div class="third-details-cont">
+                <h2>Napster</h2>
+                <p>
+                  Napster is an app where we used Napster’s API to showcase the
+                  top artists, tracks and albums in the UK. It is also somewhere
+                  where you can search for trending music by particular genre
+                  and you can search for any artist you like. This was a 48 hour
+                  hackathon pair coded project and was my first experience using
+                  React and a public API.
+                </p>
+                <button>Live</button>
+                <button>GitHub</button>
+              </div>
+            </div>
+          </div>
+          <div class="fourth-project">
+            <div class="fourth-image">
+              <img src="./images/Poppy.png" alt="image" />
+            </div>
+            <div class="pink-shape"></div>
+            <div class="fourth-details">
+              <div class="fourth-details-cont">
+                <h2>Frogger</h2>
+                <p>
+                  This was my first Project after three weeks into General
+                  Assembly’s immersive software engineering course and was also
+                  my first ever project using JavaScript. This was an individual
+                  project that I spent one week working on. I decided to put my
+                  own spin on Frogger and based it around saving ‘Poppy the
+                  Puppy’, who had to cross a river and other obstacles to get
+                  back to her kennel.
+                </p>
+                <button>Live</button>
+                <button>GitHub</button>
+              </div>
             </div>
           </div>
         </div>
