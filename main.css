@@ -19,7 +19,6 @@ body[data-aos-delay="5000"] [data-aos],
 }
 
 #title-page {
-  height: 100vh;
   width: 100vw;
 }
 
@@ -44,23 +43,30 @@ a {
   text-decoration: none;
 }
 
+.navy-background {
+  width: 70vw;
+  height: 80vh;
+  margin-top: 50px;
+  background-color: #140a41;
+  display: flex;
+  flex-direction: column;
+}
+
 .title-container {
   width: 100vw;
   height: 100vh;
   display: flex;
+  justify-content: center;
 }
 
 .css-typing {
-  height: 80vh;
-  width: 60vw;
-  border: 2px solid black;
-  position: relative;
-  top: 5vh;
+  width: 100%;
+  height: 65%;
   background-color: #140a41;
 }
 
 .css-typing p {
-  border-right: 0.15em solid #d8c3a5;
+  border-right: 0.15em solid white;
   font-family: "Fraunces", serif;
   color: white;
   white-space: nowrap;
@@ -69,14 +75,14 @@ a {
 
 .css-typing .name {
   font-weight: 600;
-  font-size: 50px;
-  margin-top: 20px;
+  font-size: 55px;
+  margin-top: 30px;
 }
 
 .css-typing .job {
   width: 80%;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 40px;
 }
 
@@ -85,8 +91,8 @@ a {
   height: 45px;
   background-color: #ff412d;
   position: relative;
-  left: 41vw;
-  bottom: 57vh;
+  right: 180px;
+  bottom: 250px;
 }
 
 .name-cont {
@@ -124,29 +130,48 @@ a {
   animation-fill-mode: forwards;
 }
 
-.scrolling-container {
-  position: relative;
-  text-align: center;
-  bottom: 50vh;
-  left: 13vw;
+.social {
+  height: 100px;
   background-color: #140a41;
-  height: 30vh;
-  width: 20vw;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.scrolling-container p {
+.social i {
+  background-color: #140a41;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.scroll-container {
+  display: flex;
+  justify-content: center;
+  background-color: #140a41;
+  margin-top: 10px;
+}
+
+.scroll {
+  text-align: center;
+  background-color: #140a41;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}
+
+.scroll p {
   color: white;
   font-size: 20px;
   background-color: #140a41;
-  padding-top: 50px;
 }
 
-.scrolling-container i {
+.scroll i {
   background-color: #140a41;
-  margin-top: 20px;
   color: white;
+  margin-top: 10px;
   font-size: 30px;
   animation-name: bounce;
   animation-duration: 2s;
@@ -155,74 +180,13 @@ a {
   transform-origin: bottom;
 }
 
-.social {
-  height: 51%;
-  width: 36vw;
-  position: relative;
-  top: 19vh;
-  left: 17.5vw;
-  background-color: #efefef;
-  z-index: 1;
-  display: flex;
-  z-index: 3;
-}
-
-.social-icons i {
-  display: flex;
-  flex-direction: column;
-  background-color: #efefef;
-  color: #140a41;
-  font-size: 50px;
-  margin: 24px;
-  position: relative;
-  top: 40px;
-  left: 50px;
-}
-
-.social-icons a {
-  text-decoration: none;
-}
-
-.social-icons {
-  background-color: #efefef;
-}
-
-.social-links {
-  display: flex;
-  flex-direction: column;
-  background-color: #efefef;
-}
-
-.social-links a {
-  background-color: #efefef;
-  position: relative;
-  left: 50px;
-  margin: 25px;
-  top: 50px;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  color: #140a41;
-}
-
-.blue-background {
-  width: 35vw;
-  height: 52vh;
-  background-color: #82aae6;
-  position: relative;
-  right: 7vw;
-  top: 15vh;
-  z-index: 1;
-}
-
 #skills-section {
   height: 100vh;
   width: 100vw;
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #194b2d;
-  position: relative;
   z-index: 1;
 }
 
@@ -292,7 +256,7 @@ a {
 }
 .fourth-skills {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 56vw;
   background-color: #fffaf0;
   z-index: 3;
@@ -332,7 +296,7 @@ a {
 }
 
 #projects-section {
-  position: relative;
+  width: 100vw;
   padding-top: 20px;
 }
 
