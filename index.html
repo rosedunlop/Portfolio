@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="width.css" />
     <title>Rose Dunlop</title>
   </head>
   <body>
@@ -41,16 +42,16 @@
                 <div class="red-shape"></div>
               </div>
             </div>
+            <div class="social" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="5000">
+              <a href="https://www.linkedin.com/in/rose-dunlop/"><i class="fab fa-linkedin"></i></a>
+              <a href="#contact-section"><i class="fas fa-at"></i></a>
+              <a href="https://github.com/rosedunlop"><i class="fab fa-github"></i></a>
+            </div>
             <div class="scroll-container" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="5000" >
               <div class="scroll">
                 <p>Scroll Down</p>
                 <i class="fas fa-chevron-down"></i>
               </div>
-            </div>
-            <div class="social" data-aos="fade-down" data-aos-duration="3000" data-aos-delay="5000">
-              <i class="fab fa-linkedin"></i>
-              <i class="fas fa-at"></i>
-              <i class="fab fa-github"></i>
             </div>
           </div>
         </div>
@@ -69,9 +70,9 @@
             which are listed here.
           </p>
         </div>
-        <div class="skills-container class="skills-title"
-        data-aos="fade-left"
-        data-aos-duration="3000"">
+        <div class="skills-container"
+          data-aos="fade-left"
+          data-aos-duration="3000"">
           <div class="first-skills">
             <div class="single-skill">
               <i class="fab fa-js" id="icon"></i>
@@ -162,15 +163,17 @@
       <section id="projects-section">
         <div class="yellow-box" data-aos="fade-up"
         data-aos-duration="3000"></div>
-        <div class="projects-title" 
-        data-aos="fade-up"
-        data-aos-duration="3000">
+        <div class="project-cont">
+          <div class="projects-title" 
+          data-aos="fade-up"
+          data-aos-duration="3000">
           <h1>Projects</h1>
           <p>
             I created four projects during General Assembly's Software
             Engineering Immersive Course. These are listed below.
           </p>
         </div>
+      </div>
         <div class="projects-container">
           <div class="first-project">
             <div class="first-image" data-aos="flip-up"
@@ -252,7 +255,7 @@
                   hackathon pair coded project and was my first experience using
                   React and a public API.
                 </p>
-                <button><i class="fab fa-chrome"></i>Live</button>
+                <a href="https://napster-project2.netlify.app/"><button><i class="fab fa-chrome"></i>Live</button></a>
                 <a href="https://github.com/rosedunlop/Project-2"><button><i class="fab fa-github"></i>GitHub</button></a>
               </div>
             </div>
@@ -287,11 +290,14 @@
         </div>
       </section>
       <section id="experience-section">
-        <div class="experience-title" data-aos="fade-down"
-        data-aos-duration="3000">
+        <div class="experience-tit">
+
+          <div class="experience-title" data-aos="fade-down"
+          data-aos-duration="3000">
           <h2>Experience</h2>
           <div class="red-shape-two"></div>
         </div>
+      </div>
         <div class="experience-cont">
           <div class="first-experience" data-aos="flip-down"
           data-aos-duration="3000">
@@ -343,8 +349,9 @@
             </ul>
           </div>
         </div>
-        <div class="education-container" data-aos="fade-up"
-        data-aos-duration="3000">
+        <div class="edu-cont">
+          <div class="education-container" data-aos="fade-up"
+          data-aos-duration="3000">
           <div class="education-title">
             <h3>Education</h3>
           </div>
@@ -362,33 +369,40 @@
               2020
             </p>
           </div>
+        </div>
           <div class="yellow-shape-two"></div>
         </div>
       </section>
       <section id="about-section">
         <div class="about-cont" >
             <h2 data-aos="fade-up" data-aos-duration="3000">About</h2>
-            <img data-aos="flip-up" data-aos-duration="3000"
+            <div class="about-img">
+
+              <img data-aos="flip-up" data-aos-duration="3000"
               src="./images/IMG_7640.jpeg"
               width="200"
               height="200"
               class="img-circle"
-            />
-            <p data-aos="fade-up" data-aos-duration="3000">
-              My interest in software development began after I graduated from
-              University with a degree in Politics. After graduating, I decided
-              that I did not want to pursue my Political career any further and
-              enrolled in an introductory course in software engineering at Code
-              First Girls. This sparked my fascination for technology and led me
-              to discover my love of problem solving. I then decided to enroll
-              in a Full-Stack Software Engineering Immersive course at General
-              Assembly in order to take my curiosity for coding and turn it into
-              a reality. My experience at GA has not only taught me the
-              necessary skills required to become a Web Developer, but also how
-              important it is to work in a team. I am now looking for
-              opportunities where I can further develop my knowledge as a junior
-              software engineer.
-            </p>
+              />
+            </div>
+            <div class="about-para">
+
+              <p data-aos="fade-up" data-aos-duration="3000">
+                My interest in software development began after I graduated from
+                University with a degree in Politics. After graduating, I decided
+                that I did not want to pursue my Political career any further and
+                enrolled in an introductory course in software engineering at Code
+                First Girls. This sparked my fascination for technology and led me
+                to discover my love of problem solving. I then decided to enroll
+                in a Full-Stack Software Engineering Immersive course at General
+                Assembly in order to take my curiosity for coding and turn it into
+                a reality. My experience at GA has not only taught me the
+                necessary skills required to become a Web Developer, but also how
+                important it is to work in a team. I am now looking for
+                opportunities where I can further develop my knowledge as a junior
+                software engineer.
+              </p>
+            </div>
         </div>
       </section>
       <section id="contact-section">

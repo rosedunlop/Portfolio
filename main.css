@@ -136,13 +136,15 @@ a {
   margin-top: 10px;
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: 10px;
 }
 
 .social i {
   background-color: #140a41;
   color: white;
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -151,7 +153,8 @@ a {
   display: flex;
   justify-content: center;
   background-color: #140a41;
-  margin-top: 10px;
+  position: relative;
+  bottom: 20px;
 }
 
 .scroll {
@@ -181,7 +184,7 @@ a {
 }
 
 #skills-section {
-  height: 100vh;
+  height: 750px;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
@@ -192,8 +195,8 @@ a {
 
 .skills-container {
   background-color: #fffaf0;
-  height: 70%;
-  width: 56.5vw;
+  height: 510px;
+  width: 820px;
   position: relative;
   top: 100px;
   left: 20px;
@@ -233,7 +236,7 @@ a {
   display: flex;
   padding-top: 40px;
   justify-content: space-evenly;
-  width: 56vw;
+  width: 790px;
   background-color: #fffaf0;
   z-index: 3;
   padding-bottom: 10px;
@@ -241,7 +244,7 @@ a {
 .second-skills {
   display: flex;
   justify-content: space-evenly;
-  width: 56vw;
+  width: 790px;
   background-color: #fffaf0;
   padding-bottom: 10px;
   z-index: 3;
@@ -249,7 +252,7 @@ a {
 .third-skills {
   display: flex;
   justify-content: space-evenly;
-  width: 56vw;
+  width: 790px;
   padding-bottom: 10px;
   background-color: #fffaf0;
   z-index: 3;
@@ -257,19 +260,19 @@ a {
 .fourth-skills {
   display: flex;
   justify-content: space-evenly;
-  width: 56vw;
+  width: 790px;
   background-color: #fffaf0;
   z-index: 3;
 }
 
 .pink-background {
-  width: 56.5vw;
-  height: 71vh;
+  width: 820px;
+  height: 520px;
   background-color: pink;
   z-index: 2;
   position: relative;
-  bottom: 60vh;
-  left: 19vw;
+  bottom: 440px;
+  left: 270px;
 }
 
 #icon {
@@ -300,12 +303,16 @@ a {
   padding-top: 20px;
 }
 
-.projects-title {
-  width: 40%;
-  height: 300px;
+.project-cont {
+  display: flex;
+  justify-content: center;
   position: relative;
-  left: 30vw;
-  bottom: 10vh;
+  bottom: 50px;
+}
+
+.projects-title {
+  width: 550px;
+  height: 300px;
   text-align: center;
   background-color: #963c19;
 }
@@ -390,16 +397,16 @@ a {
 
 .first-details {
   width: 600px;
-  height: 70%;
+  height: 420px;
   background-color: #55003c;
   position: relative;
-  top: 25vh;
+  top: 180px;
 }
 
 .first-details-cont {
   background-color: #55003c;
-  width: 72%;
-  height: 80%;
+  width: 500px;
+  height: 380px;
   position: relative;
   left: 50px;
   top: 15px;
@@ -414,6 +421,7 @@ a {
 }
 .first-details-cont p {
   background-color: #55003c;
+  width: 450px;
   color: white;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -451,8 +459,8 @@ a {
   height: 140px;
   background-color: #95ab7f;
   position: relative;
-  left: 30vw;
-  top: 12vh;
+  left: 500px;
+  top: 100px;
   z-index: 1;
 }
 
@@ -476,8 +484,8 @@ a {
 }
 
 .second-details {
-  width: 500px;
-  height: 70%;
+  width: 520px;
+  height: 450px;
   background-color: #142f43;
 }
 
@@ -485,8 +493,8 @@ a {
   width: 140px;
   height: 40px;
   position: relative;
-  top: 5vh;
-  right: 15vw;
+  top: 20px;
+  right: 200px;
   z-index: 2;
   background-color: #ffab4c;
 }
@@ -512,19 +520,19 @@ a {
 .second-project-sm-images {
   position: relative;
   object-fit: cover;
-  left: 37vw;
-  bottom: 70px;
+  left: 550px;
+  bottom: 150px;
   z-index: 1;
-  width: 20vw;
-  height: 40vh;
+  width: 280px;
+  height: 300px;
 }
 
 .second-details-cont {
   background-color: #142f43;
-  width: 60%;
-  height: 80%;
+  width: 350px;
+  height: 400px;
   position: relative;
-  left: 6vw;
+  left: 50px;
   top: 20px;
 }
 .second-details-cont h2 {
@@ -574,6 +582,7 @@ a {
   height: 400px;
   position: relative;
   top: 60px;
+  left: 100px;
 }
 
 .third-image img {
@@ -585,15 +594,15 @@ a {
 
 .third-details {
   width: 650px;
-  height: 70%;
+  height: 420px;
   position: relative;
   top: 180px;
   background-color: #140a41;
 }
 .third-details-cont {
   background-color: #140a41;
-  width: 70%;
-  height: 80%;
+  width: 500px;
+  height: 350px;
   position: relative;
   left: 80px;
   top: 30px;
@@ -653,8 +662,8 @@ a {
   width: 550px;
   height: 400px;
   position: relative;
-  top: 20vh;
-  right: 5vw;
+  top: 130px;
+  right: 50px;
 }
 
 .fourth-image img {
@@ -665,15 +674,15 @@ a {
 }
 
 .fourth-details {
-  width: 45vw;
-  height: 75%;
+  width: 650px;
+  height: 450px;
   background-color: #194b2d;
 }
 
 .fourth-details-cont {
   background-color: #194b2d;
-  width: 70%;
-  height: 80%;
+  width: 450px;
+  height: 350px;
   position: relative;
   left: 50px;
   top: 30px;
@@ -726,8 +735,8 @@ a {
   height: 45px;
   background-color: pink;
   position: relative;
-  top: 5vh;
-  right: 8vw;
+  top: 20px;
+  right: 100px;
 }
 
 #experience-section {
@@ -736,11 +745,15 @@ a {
   padding-bottom: 30px;
 }
 
+.experience-tit {
+  display: flex;
+  justify-content: center;
+  background-color: #c8e1fa;
+}
+
 .experience-title {
   width: 400px;
-  height: 30vh;
-  position: relative;
-  left: 36vw;
+  height: 250px;
   background-color: #140a41;
 }
 
@@ -872,12 +885,17 @@ a {
   margin-top: 10px;
 }
 
+.edu-cont {
+  display: flex;
+  background-color: #c8e1fa;
+  justify-content: center;
+}
+
 .education-container {
   margin-top: 70px;
+
   width: 700px;
-  position: relative;
-  left: 26vw;
-  height: 40vh;
+  height: 300px;
   background-color: #142f43;
   padding: 10px;
 }
@@ -897,8 +915,8 @@ a {
   height: 100px;
   z-index: 2;
   position: relative;
-  left: 22vw;
-  bottom: 12vh;
+  left: 300px;
+  bottom: 90px;
 }
 
 .education-title h3 {
@@ -913,8 +931,7 @@ a {
   height: 110px;
   z-index: 2;
   position: relative;
-  bottom: 40vh;
-  left: 4vw;
+  right: 100px;
 }
 .education-names {
   font-family: "Montserrat", sans-serif;
@@ -941,7 +958,7 @@ a {
 }
 
 #about-section {
-  height: 100vh;
+  height: 750px;
   background-color: #963c19;
   position: relative;
   bottom: 20px;
@@ -950,6 +967,9 @@ a {
 .about-cont {
   background-color: #963c19;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-cont h2 {
@@ -961,9 +981,22 @@ a {
   padding-bottom: 50px;
 }
 
+.about-img {
+  display: flex;
+  justify-content: center;
+  background-color: #963c19;
+}
+
 .about-cont img {
   object-fit: cover;
   position: relative;
+}
+
+.about-para {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #963c19;
 }
 
 .about-cont p {
@@ -974,9 +1007,6 @@ a {
   background-color: #963c19;
   font-size: 15px;
   width: 60%;
-  position: relative;
-  left: 280px;
-  top: 50px;
 }
 
 .contact-div {
@@ -1004,7 +1034,7 @@ a {
   height: 120px;
   background-color: #ff412d;
   position: relative;
-  bottom: 27vh;
+  bottom: 200px;
   right: 350px;
 }
 

@@ -1,0 +1,156 @@
+@media screen and (min-width: 1500px) {
+  .pink-background {
+    left: 300px;
+  }
+  .orange-shape {
+    right: 300px;
+  }
+
+  .pink-shape {
+    right: 200px;
+  }
+
+  .contact-div {
+    left: 32vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  .navy-background {
+    width: 100vw;
+  }
+  .css-typing .name {
+    font-size: 40px;
+  }
+  .css-typing .job {
+    font-size: 30px;
+  }
+
+  #skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .skills-title {
+    width: 100vw;
+  }
+
+  .skills-container {
+    display: none;
+  }
+
+  .pink-background {
+    display: none;
+  }
+
+  .first-skills {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .second-skills {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .third-skills {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .fourth-skills {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .skills-title {
+    width: 100vw;
+    position: relative;
+    left: 20px;
+    top: 0;
+  }
+
+  .yellow-box {
+    display: none;
+  }
+
+  .projects-title {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .projects-title p {
+    width: 70vw;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .first-project {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100vw;
+    border: 2px solid red;
+  }
+
+  .first-image {
+    position: relative;
+    left: 5px;
+    top: 0;
+    width: 100vw;
+    background-color: #fffaf0;
+  }
+
+  .first-image img {
+    width: 95vw;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .small-eclectic-img {
+    display: none;
+  }
+
+  .small-img-cont {
+    display: none;
+  }
+
+  .first-details {
+    width: 100vw;
+  }
+
+  .first-details-cont {
+    width: 100vw;
+    position: relative;
+  }
+
+  .first-details-cont h2 {
+    width: 100vw;
+  }
+
+  .first-details-cont p {
+    width: 100vw;
+    position: relative;
+    left: 0;
+    margin: 0;
+  }
+
+  .second-project {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+  }
+}
